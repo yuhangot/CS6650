@@ -48,7 +48,6 @@ public class LiftRideConsumer {
       });
     }
 
-//关闭钩子
     Runtime.getRuntime().addShutdownHook(new Thread(() -> {
       try {
         executor.shutdown();
